@@ -1,5 +1,5 @@
 import { useParams } from "react-router";
-import './TeamPage.css'
+import '../styles/TeamPage.css';
 function TeamPage(){
     const { manager } = useParams();
     return <>

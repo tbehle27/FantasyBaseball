@@ -1,6 +1,6 @@
 import App from './App';
-import TeamPage from "./TeamPage";
-import ErrorPage from "./ErrorPage";
+import TeamPage from "./components/TeamPage";
+import ErrorPage from "./components/ErrorPage";
 
 const routes = [
     {

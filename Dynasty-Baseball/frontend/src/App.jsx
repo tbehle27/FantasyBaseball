@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import commish from './assets/commissioner.jpeg'
-import './App.css'
-import NavBar from './NavBar.jsx'
-import TeamPage from './TeamPage.jsx'
+import commish from '../assets/commissioner.jpeg'
+import './styles/App.css'
+import NavBar from './components/NavBar.jsx'
+import TeamPage from './components/TeamPage.jsx'
 import { Link } from "react-router";
 
 function List(props) {
@@ -23,7 +23,7 @@ function List(props) {
 
 function App() {
   const [count, setCount] = useState(0)
-  const animals = [];
+  const animals = ["tiger","lion","bear","penguin"];
 
   return (
     <>
@@ -37,7 +37,7 @@ function App() {
           count is {count}
         </button>
       </div>
-      <div class="table-container">
+      <div className="table-container">
         <table>
           <tr>
             <th>Year</th>
